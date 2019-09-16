@@ -10,7 +10,7 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {//1
-            Console.WriteLine("Введите 2 числа");
+            
             int a1 = int.Parse(Console.ReadLine());
             int b1 = int.Parse(Console.ReadLine());
             if (a1 > b1)
@@ -28,7 +28,7 @@ namespace ConsoleApp5
             //2
 
 
-            Console.WriteLine("Введите 3 числа");
+            
             int a2 = int.Parse(Console.ReadLine());
             int b2 = int.Parse(Console.ReadLine());
             int c2 = int.Parse(Console.ReadLine());
@@ -56,7 +56,7 @@ namespace ConsoleApp5
 
             //3
 
-            Console.WriteLine("Введите 3 числа");
+           
             int a3 = int.Parse(Console.ReadLine());
             int b3 = int.Parse(Console.ReadLine());
             int c3 = int.Parse(Console.ReadLine());
@@ -89,7 +89,7 @@ namespace ConsoleApp5
 
             //4
 
-            Console.WriteLine("Введите 3 числа");
+            
             int a4 = int.Parse(Console.ReadLine());
             int b4 = int.Parse(Console.ReadLine());
             int c4 = int.Parse(Console.ReadLine());
@@ -105,9 +105,8 @@ namespace ConsoleApp5
             //5
 
 
-            Console.WriteLine("Введите координаты точки x");
-            int x5 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите координаты точки x");
+            
+            int x5 = int.Parse(Console.ReadLine());       
             int y5 = int.Parse(Console.ReadLine());
             if (x5 > 0 && y5 > 0)
             {
@@ -161,7 +160,6 @@ namespace ConsoleApp5
 
            //7
 
-            Console.WriteLine("введите год");
             int y6 = int.Parse(Console.ReadLine());
             if (y6 % 4 == 0)
             {
@@ -182,7 +180,7 @@ namespace ConsoleApp5
 
             //8
 
-            Console.WriteLine("Введите четырехзначное число");
+            
 
             string i8 = Console.ReadLine();
             string b8 = i8.Substring(2, 1);
@@ -202,13 +200,10 @@ namespace ConsoleApp5
 
             //9
 
-            Console.WriteLine("Введите первую координату x");
+           
             int x10 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите вторую координату y");
             int x20 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите первую координату x");
             int y10 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите вторую координату y");
             int y20 = int.Parse(Console.ReadLine());
             if ((x10 * x20 > 0) && (y10 * y20 > 0))
             {
