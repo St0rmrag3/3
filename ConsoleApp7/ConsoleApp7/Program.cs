@@ -240,7 +240,7 @@ namespace ConsoleApp5
             }
             else { Console.WriteLine("Нечетного нет"); }
 
-            Console.ReadKey();
+            
         }
     }
 }
